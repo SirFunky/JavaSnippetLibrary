@@ -1,0 +1,11 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "main-capability",
+  "description": "The local main window can copy text and remember window placement. Files are accessed only through library-scoped Rust commands.",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "clipboard-manager:allow-write-text",
+    "window-state:default"
+  ]
+}
